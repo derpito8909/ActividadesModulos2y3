@@ -1,7 +1,27 @@
 [
   {
     "nombre": "hoddie",
-    "imagen": "",
-    "precio": "250000"
+    "imagen": "https://cdn.printerval.com/unsafe/960x960/assets.printerval.com/2022/02/11/618a22934e05c-1636442771-618a229384919-adfeb9bbbf52633018c3349dd37d3fbe.jpg",
+    "precio": 250000
+  },
+  {
+    "nombre": "balones",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Balon_mundial_1954.jpg",
+    "precio": 250000
+  },
+  {
+    "nombre": "Camiseta deportivas",
+    "imagen": "https://cdn.printerval.com/unsafe/960x960/asset/11561d0c0b010b0c190c111b561b171557494e4149484d4c4d570a571114574a4119411b4b574c4b4b4d4e404e4c484e571114271e0d1414001e0d1414564c4b4b4d4e404e4c484e270a481b1f5612081f",
+    "precio": 250000
+  },
+  {
+    "nombre": "sudaderas",
+    "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fthehighculture.resultco.com%2F%3Fy%3Dsudaderas-deportivas-se-equipos-europeos-2022-originales-en-bogota-tt-QGvQMqu8&psig=AOvVaw2y25CyXMZF6YKo8z3__roe&ust=1719097686072000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCICV8Yzo7YYDFQAAAAAdAAAAABAJ",
+    "precio": 250000
+  },
+  {
+    "nombre": "guayos",
+    "imagen": "https://www.google.com/imgres?q=guayos%20nike&imgurl=http%3A%2F%2Fsuburbanstore.com.co%2Fcdn%2Fshop%2Fproducts%2F1_69c8efb9-7c3d-40a5-831f-80ce0ee8477b.jpg%3Fv%3D1667351702&imgrefurl=https%3A%2F%2Fsuburbanstore.com.co%2Fproducts%2Fguayo-nike-superfly-8-academy-fg&docid=IzcSHD-fy-zEWM&tbnid=iDGRhlivFmBWeM&vet=12ahUKEwjIqZK-6O2GAxU2gIQIHVn9CrAQM3oECFAQAA..i&w=1024&h=768&hcb=2&ved=2ahUKEwjIqZK-6O2GAxU2gIQIHVn9CrAQM3oECFAQAA",
+    "precio": 250000
   }
 ]
