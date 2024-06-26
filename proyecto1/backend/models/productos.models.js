@@ -20,4 +20,4 @@ const productSchema = new schema({
 //Utilizamos la plantilla de modelo -> y luego se crea la colencion
 // argumentos: nombre de la coleccion
 // el nombre del modelo
-export const productModel = mongoose.model("usuario", productSchema);
+export const productModel = mongoose.model("producto", productSchema);

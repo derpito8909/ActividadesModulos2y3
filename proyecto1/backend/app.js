@@ -11,6 +11,10 @@ const port = process.env.PORT;
 
 // coneccion a la base de datos
 connectionMongo();
+
+//middleware -> intermediario entre el servidor y las pediciones
+app.use(express.json());
+
 app.use("/", productRouter);
 // ejecutar el servidor
 app.listen(port, () => {
