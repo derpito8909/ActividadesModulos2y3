@@ -1,0 +1,5 @@
+.boton {
+  background-color: var(--colorEnfasis2);
+  border-radius: 5px;
+  color: black;
+}

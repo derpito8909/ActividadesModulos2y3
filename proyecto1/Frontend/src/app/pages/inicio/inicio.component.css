@@ -1,0 +1,23 @@
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contenido img {
+  width: 100%;
+  height: 200px;
+}
+.contenido h1,
+h2 {
+  text-align: center;
+}
+.boton {
+  background-color: var(--colorEnfasis2);
+  border-radius: 5px;
+  color: black;
+  width: 100px;
+  height: 50px;
+  margin-top: 50px;
+  align-content: center;
+}

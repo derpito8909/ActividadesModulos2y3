@@ -1,0 +1,6 @@
+.miFooter {
+  background-color: var(--colorEnfasis1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

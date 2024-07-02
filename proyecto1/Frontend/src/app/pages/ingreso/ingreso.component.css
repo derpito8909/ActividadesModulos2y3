@@ -1,0 +1,22 @@
+.boton {
+  background-color: var(--colorEnfasis2);
+  border-radius: 5px;
+  color: black;
+  margin-top: 20px;
+  width: 100px;
+}
+.ingreso-container {
+  width: 650px;
+  padding: 20px;
+  border: solid 5px white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-label {
+  align-self: self-start;
+}
