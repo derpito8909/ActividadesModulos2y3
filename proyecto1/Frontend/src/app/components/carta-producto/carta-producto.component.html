@@ -1,7 +1,12 @@
-<div class="card border border-dark" style="width: 17rem">
-  <div class="card-body d-flex flex-column">
-    <h5 class="card-title text-center mb-5">Hoodies</h5>
-    <img src="product2.jpg" class="card-img-top" alt="jersey" />
-    <a href="#" class="btn btn-sm boton mt-5">$150.000</a>
+<section class="productos">
+  @for(producto of allproducts; track $index){
+  <div class="card border border-dark" style="width: 17rem">
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title text-center mb-5">{{ producto.nombre }}</h5>
+      <img src="{{ producto.imagen }}" class="card-img-top" alt="jersey" />
+      <a href="#" class="btn btn-sm boton mt-5">${{ producto.precio }}</a>
+      <a href="#" class="btn btn-dark">Añadir al carrito</a>
+    </div>
   </div>
-</div>
+  }
+</section>

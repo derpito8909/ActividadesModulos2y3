@@ -1,5 +1,11 @@
 <app-navegacion></app-navegacion>
 <h2>Administración productos</h2>
+<article class="nuevo-producto">
+  <h5>Agregar nuevo producto:</h5>
+  <button type="button" class="border-0">
+    <i class="bi bi-bag-plus-fill h3"></i>
+  </button>
+</article>
 <table class="blueTable">
   <thead>
     <tr>
@@ -10,18 +16,22 @@
     </tr>
   </thead>
   <tbody>
+    @for(producto of allproducts; track $index){
     <tr>
-      <td>hoodies</td>
-      <td>xxxx</td>
-      <td>$1500</td>
+      <td>{{ producto.nombre }}</td>
+      <td>{{ producto.imagen }}</td>
+      <td>${{ producto.precio }}</td>
       <td class="iconos">
-        <a><i class="bi bi-bag-plus-fill h3"></i></a>
+        <button type="button" class="border-0">
+          <i class="bi bi-pencil-square h3"></i>
+        </button>
         |
-        <a><i class="bi bi-pencil-square h3"></i></a>
-        |
-        <a><i class="bi bi-trash-fill h3 text-danger"></i></a>
+        <button type="button" class="border-0">
+          <i class="bi bi-trash-fill h3 text-danger"></i>
+        </button>
       </td>
     </tr>
+    }
   </tbody>
 </table>
 <app-pie-pagina></app-pie-pagina>

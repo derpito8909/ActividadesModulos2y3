@@ -3,3 +3,7 @@
   border-radius: 5px;
   color: black;
 }
+.productos {
+  display: flex;
+  justify-content: space-around;
+}

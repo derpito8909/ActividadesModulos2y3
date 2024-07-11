@@ -1,3 +1,8 @@
+.nuevo-producto {
+  display: flex;
+  gap: 5px;
+  margin-left: 5px;
+}
 table.blueTable {
   border: 1px solid var(--colorEnfasis1);
   background-color: #eeeeee;
