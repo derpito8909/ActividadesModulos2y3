@@ -25,20 +25,38 @@
       <td>${{ producto.precio }}</td>
       <td class="iconos">
         <button type="button" class="border-0">
-          <i class="bi bi-pencil-square h3"></i>
+          <i
+            class="bi bi-pencil-square h3"
+            (click)="
+              showEditProductform(
+                producto.nombre,
+                producto.imagen,
+                producto.precio,
+                producto._id
+              )
+            "
+          ></i>
         </button>
         |
         <button type="button" class="border-0">
-          <i class="bi bi-trash-fill h3 text-danger"></i>
+          <i
+            class="bi bi-trash-fill h3 text-danger"
+            (click)="confirmDelete(producto._id)"
+          ></i>
         </button>
       </td>
     </tr>
     }
   </tbody>
 </table>
-@if(isNewProduct){
+@if(isNewProduct) {
 <section class="mx-2">
+  @if(!isUpdateProduct){
   <h3>Nuevo Producto</h3>
+  } @else {
+  <h3>Editar Producto</h3>
+  <input type="hidden" name="id" [(ngModel)]="id" />
+  }
   <form class="row g-3 d-flex flex-column align-items-start">
     <div class="col-auto">
       <label for="nombre" class="">Nombre:</label>
@@ -63,6 +81,7 @@
       />
     </div>
     <div class="col-auto">
+      @if (!isUpdateProduct) {
       <button
         type="button"
         (click)="createProduct()"
@@ -70,6 +89,15 @@
       >
         Crear
       </button>
+      }@else{
+      <button
+        type="button"
+        class="btn btn-primary mb-3"
+        (click)="editProduct()"
+      >
+        Editar
+      </button>
+      }
       <button
         type="button"
         (click)="showCreateProductForm(false)"
@@ -81,5 +109,4 @@
   </form>
 </section>
 }
-
 <app-pie-pagina></app-pie-pagina>
