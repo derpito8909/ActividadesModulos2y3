@@ -9,8 +9,8 @@ userRouter.get("/", getUsers);
 
 userRouter.post("/", postUser);
 
-userRouter.put("/:id", putUserById);
+userRouter.put("/:_id", putUserById);
 
-userRouter.delete("/:id", deleteUserById);
+userRouter.delete("/:_id", deleteUserById);
 
 export default userRouter;
