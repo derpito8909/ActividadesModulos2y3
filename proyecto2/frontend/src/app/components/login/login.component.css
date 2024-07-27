@@ -17,3 +17,8 @@
     rgba(148, 187, 233, 1) 100%
   );
 }
+
+.enlace-register:hover {
+  border: 2px solid red;
+  color: aquamarine;
+}

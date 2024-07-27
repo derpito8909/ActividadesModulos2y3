@@ -70,8 +70,8 @@
 </nav>
 <!-- Navbar -->
 <div *ngIf="isVisibleRegister">
-  <app-register></app-register>
+  <app-register [toogleLogin]="toogleLogin.bind(this)"></app-register>
 </div>
 <div *ngIf="isVisibleLogin">
-  <app-login></app-login>
+  <app-login [toogleRegister]="toogleRegister.bind(this)"></app-login>
 </div>
